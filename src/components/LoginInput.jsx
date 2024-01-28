@@ -82,7 +82,6 @@ export default function LoginInput() {
                 color={colorMode === 'dark' ? 'black' : 'black'}
                 value={email}
                 onChange={setEmail}
-                placeholder="Email"
               />
             </FormControl>
             <FormControl isRequired>
