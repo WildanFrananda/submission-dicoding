@@ -109,7 +109,6 @@ export default function LoginInput() {
                 color={colorMode === 'dark' ? 'black' : 'black'}
                 value={password}
                 onChange={setPassword}
-                placeholder="Password"
               />
             </FormControl>
 
