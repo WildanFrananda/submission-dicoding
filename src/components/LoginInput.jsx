@@ -82,6 +82,7 @@ export default function LoginInput() {
                 color={colorMode === 'dark' ? 'black' : 'black'}
                 value={email}
                 onChange={setEmail}
+                placeholder="Email"
               />
             </FormControl>
             <FormControl isRequired>
@@ -109,6 +110,7 @@ export default function LoginInput() {
                 color={colorMode === 'dark' ? 'black' : 'black'}
                 value={password}
                 onChange={setPassword}
+                placeholder="Password"
               />
             </FormControl>
 
